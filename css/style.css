@@ -220,3 +220,17 @@ img{max-width:100%;display:block}
   .section{padding:58px 0}
   .band-nums{gap:28px}
 }
+
+/* ---- brand mark (logo) ---- */
+.nav-logo{display:flex;align-items:center;gap:11px}
+.logo-mark{height:44px;width:auto;display:block;flex:none}
+.logo-dark{display:none}
+.navbar.scrolled .logo-light{display:none}
+.navbar.scrolled .logo-dark{display:block}
+.nav-word{font-size:1.5rem;line-height:1}
+.footer h3{display:flex;align-items:center;gap:10px}
+.foot-mark{height:36px;width:auto;flex:none}
+@media(max-width:760px){
+  .logo-mark{height:36px}
+  .nav-word{font-size:1.2rem}
+}

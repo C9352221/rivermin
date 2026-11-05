@@ -234,3 +234,7 @@ img{max-width:100%;display:block}
   .logo-mark{height:36px}
   .nav-word{font-size:1.2rem}
 }
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.form-status{font-size:14px;text-align:center;margin-top:12px;min-height:1.2em}
+.form-status.ok{color:#2e7d4f}
+.form-status.err{color:#b3261e}

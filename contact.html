@@ -46,8 +46,8 @@
         <p style="margin-top:20px">River Ministries International Inc. is a registered 501(c)(3) nonprofit organization.</p>
       </div>
 
-      <!-- contact form (skeleton: wire action to email handler / worker) -->
-      <form class="form" action="#" method="POST">
+      <!-- Emailed to Gil through FormSubmit; the first message needs his one-time "Activate Form" click. -->
+      <form class="form" action="#" method="POST" data-form>
         <div class="row">
           <div>
             <label for="name">Name</label>
@@ -62,8 +62,9 @@
         <input id="subject" name="subject" type="text" placeholder="How can we help?">
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="5" required placeholder="Share your heart with us..."></textarea>
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <button type="submit" class="btn btn-gold">Send Message</button>
-        <p style="font-size:12px;text-align:center;margin-top:12px;color:#8ea0a8">Skeleton note: connect this form to an email handler or intake worker before launch.</p>
+        <p class="form-status" role="status" aria-live="polite"></p>
       </form>
     </div>
   </section>
